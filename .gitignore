@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Environment files
+.env
+.env.local
+.env.production
+frontend/.env.local
+
+# Build outputs
+dist/
+build/
+artifacts/
+cache/
+typechain-types/
+
+# Frontend
+frontend/.next/
+frontend/out/
+frontend/public/uploads/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+coverage/
+.nyc_output/
+__pycache__/
+*.pyc
+
+# Deployment
+deployment-addresses.json
+
+# Private keys (NEVER COMMIT)
+*.key
+*.pem
+private-keys.txt

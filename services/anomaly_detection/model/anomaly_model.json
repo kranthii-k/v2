@@ -1,0 +1,86 @@
+{
+  "version": 2,
+  "model_type": "sklearn.isolation_forest",
+  "features_order": [
+    "amount_eth",
+    "wallet_balance_eth",
+    "amount_to_wallet_ratio",
+    "receipt_count_24h",
+    "release_count_24h",
+    "hour_of_day",
+    "day_of_week"
+  ],
+  "sklearn_model_path": "isolation_forest.joblib",
+  "feature_stats": {
+    "amount_eth": {
+      "mean": 14.086477448,
+      "std": 22.73750476538767,
+      "p05": 0.3487228,
+      "p50": 3.493413,
+      "p95": 73.34442944999995,
+      "p99": 96.98247726999998
+    },
+    "wallet_balance_eth": {
+      "mean": 58.10310698766666,
+      "std": 104.57035920222883,
+      "p05": 0.94379595,
+      "p50": 13.876123499999999,
+      "p95": 302.2983556499999,
+      "p99": 500.0
+    },
+    "amount_to_wallet_ratio": {
+      "mean": 0.35073940866666664,
+      "std": 0.21930688232931722,
+      "p05": 0.07685770000000001,
+      "p50": 0.305712,
+      "p95": 0.8203750999999999,
+      "p99": 0.9590179999999981
+    },
+    "receipt_count_24h": {
+      "mean": 1.6186666666666667,
+      "std": 0.9405237311673156,
+      "p05": 0.0,
+      "p50": 2.0,
+      "p95": 3.0,
+      "p99": 4.0
+    },
+    "release_count_24h": {
+      "mean": 1.336,
+      "std": 0.7346908646952586,
+      "p05": 0.0,
+      "p50": 1.0,
+      "p95": 3.0,
+      "p99": 3.0
+    },
+    "hour_of_day": {
+      "mean": 12.461,
+      "std": 4.15457326328469,
+      "p05": 6.0,
+      "p50": 12.0,
+      "p95": 19.0,
+      "p99": 22.0
+    },
+    "day_of_week": {
+      "mean": 2.973333333333333,
+      "std": 1.9531057887944068,
+      "p05": 0.0,
+      "p50": 3.0,
+      "p95": 6.0,
+      "p99": 6.0
+    }
+  },
+  "score_calibration": {
+    "normal_score": 0.11996082039455283,
+    "flag_score": 4.808436634973212e-17,
+    "high_risk_score": -0.03669701824815625
+  },
+  "thresholds": {
+    "score": 70,
+    "amount_eth_p95": 73.34442944999995,
+    "amount_eth_p99": 96.98247726999998,
+    "amount_to_wallet_ratio_p95": 0.8203750999999999,
+    "amount_to_wallet_ratio_p99": 0.9590179999999981,
+    "receipt_count_24h": 5,
+    "release_count_24h": 4
+  }
+}
