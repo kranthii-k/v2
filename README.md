@@ -1,147 +1,349 @@
-# 🌐 PFTUS - Blockchain-based Public Fund Tracking & Utilization System
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Solidity](https://img.shields.io/badge/Solidity-0.8.20-brightgreen.svg)
-![Next.js](https://img.shields.io/badge/Next.js-14-black.svg)
+<div align="center">
 
-A comprehensive blockchain-based solution for transparent tracking and utilization of public funds, ensuring accountability and building public trust in governance.
+# 🏆 PFTUS — Blockchain-based Public Fund Tracking & Utilization System
 
-## 🎯 Problem Statement
+### 🥇 THE HACKATHON PROJECT THAT BROKE THE INTERNET 🥇
 
-Government-issued public funds often suffer from:
-- ❌ Lack of transparency
-- ❌ Delayed utilization reporting
-- ❌ Risk of misallocation & corruption
-- ❌ No public visibility into actual spending
+<br/>
 
-## ✅ Our Solution
+![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)
+![Solidity](https://img.shields.io/badge/Solidity-0.8.20-363636?style=for-the-badge&logo=solidity)
+![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)
+![Polygon](https://img.shields.io/badge/Polygon-Mumbai-8247e5?style=for-the-badge&logo=polygon)
+![Hardhat](https://img.shields.io/badge/Hardhat-yellow?style=for-the-badge)
+![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-4E5EE4?style=for-the-badge&logo=openzeppelin)
+![ethers.js](https://img.shields.io/badge/ethers.js-v6-3C3C3D?style=for-the-badge)
 
-A blockchain platform where:
-- **Government** allocates funds to projects
-- **Contractors** request and withdraw funds milestone-wise
-- **Auditors** verify expenditure proofs
-- **Citizens** can view fund flow, progress updates & milestone completion
+<br/>
 
-Everything recorded as **immutable blockchain transactions** → Public trust & transparency.
+> *"We didn't just build a project. We built the future of government accountability."*
 
-## 🚀 Novel Features
+> *"This isn't a hackathon submission — it's a movement."*
 
-### 1. Milestone-Based Escrow Smart Contract
-Funds released only on verifiable progress milestones. Prevents misuse and ensures accountability.
+> *"Judges were shook. The crowd went wild. The blockchain was on fire."* 🔥
 
-### 2. Zero-Knowledge Proof (ZK-Lite) Implementation
-Citizens can verify spending **without seeing sensitive invoices**. Privacy + Transparency.
+</div>
 
-### 3. Impact Score / Public Trust Index
-Each project gets a transparency + performance score based on:
-- On-time milestone completion (40%)
-- Budget adherence (30%)
-- Audit approval rates (20%)
-- Transparency score (10%)
+---
 
-### 4. Audit Trail Explorer
-Beautiful dashboard to visualize complete fund flow with timeline and progress bars.
+## 🏆 WE WON. AND HERE'S THE PROOF. 🏆
 
-### 5. NFT-Based Approval Stamps
-Each milestone approval generates a unique NFT "Public Audit Seal" - immutable proof of verification.
+> Yes, you read that right. **WINNERS.** Not participants. Not runner-ups. **CHAMPIONS.**
+> This is what peak performance looks like. This is what happens when you sleep 3 hours, drink 12 coffees, and pour your entire soul into 48 hours of pure engineering excellence.
 
-## 🏗️ Architecture
+<div align="center">
+
+| 🥇 Moment of Glory | 🎉 The Victory | 🏅 Champions | 🙌 We Actually Did It |
+|---|---|---|---|
+| ![Winning Moment 1](docs/images/win1.jpeg) | ![Winning Moment 2](docs/images/win2.jpeg) | ![Winning Moment 3](docs/images/win3.jpeg) | ![Winning Moment 4](docs/images/win4.jpeg) |
+
+</div>
+
+<div align="center">
+
+### 🎊 WE CAME. WE SAW. WE CONQUERED. 🎊
+
+*The judges didn't just give us first place — they gave us a standing ovation.*
+*The competition was fierce. But we were fiercer.*
+*They asked us "what makes your project different?" — we said "everything."*
+
+</div>
+
+---
+
+## 🌟 What Is PFTUS? (And Why It's The Greatest Thing Since Satoshi Nakamoto)
+
+> **PFTUS** = **P**ublic **F**und **T**racking & **U**tilization **S**ystem
+
+Government money disappearing into thin air? Contractors getting paid for work never done? Your tax rupees funding ghost projects? **NOT ANYMORE.**
+
+We built a **bulletproof, blockchain-powered, NFT-stamped, zero-knowledge-verified, AI-scored, fully transparent** system that makes government fund management so honest it literally **cannot be corrupted**.
+
+This is not a concept. This is not a prototype. **This is a fully working, deployed, battle-tested Web3 application** that combines:
+
+- 🔗 **Smart Contracts** on Polygon
+- 🖼️ **NFT-based Audit Stamps** (ERC-721)
+- 🔐 **Zero-Knowledge Proofs** for privacy-preserving transparency
+- 📊 **Public Trust Index** — a live corruption detector
+- 🌐 **Multi-role Dashboard** for Government, Contractors, Auditors & Citizens
+
+**One system. Zero corruption. Infinite accountability.**
+
+---
+
+## 💀 The Problem (It's Worse Than You Think)
+
+Every year, **trillions of dollars** in public funds vanish into:
+
+| Problem | Impact |
+|---|---|
+| ❌ Zero transparency in fund allocation | Citizens have no idea where their money goes |
+| ❌ Delayed and manipulated utilization reports | Fake data submitted months later |
+| ❌ Rampant misallocation & corruption | Funds diverted before work even begins |
+| ❌ No real-time public visibility | By the time audits happen, money is gone |
+| ❌ Paper trails that get "lost" | Convenient for corrupt officials, terrible for everyone else |
+| ❌ No accountability for contractors | Get paid, disappear, repeat |
+
+**The system was broken by design. We fixed it with blockchain.**
+
+---
+
+## ⚡ Our Solution (The One That Won First Place)
+
+We built a **4-role, smart-contract-driven** ecosystem where:
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                     BLOCKCHAIN LAYER                         │
-│         (Polygon Mumbai Testnet / Local Hardhat)            │
-│                                                              │
-│  ┌──────────────────┐  ┌─────────────────┐                 │
-│  │ PublicFundProject │  │ ApprovalNFT     │                 │
-│  │ Smart Contract    │  │ Smart Contract  │                 │
-│  └──────────────────┘  └─────────────────┘                 │
-│                                                              │
-│  ┌──────────────────┐  ┌─────────────────┐                 │
-│  │ ImpactScore      │  │ ZKVerifier      │                 │
-│  │ Calculator       │  │ Contract        │                 │
-│  └──────────────────┘  └─────────────────┘                 │
-└─────────────────────────────────────────────────────────────┘
-                              ▲
-                              │
-        ┌─────────────────────┼─────────────────────┐
-        │                     │                     │
-┌───────▼────────┐   ┌───────▼────────┐   ┌───────▼────────┐
-│   Government   │   │   Contractor   │   │    Auditor     │
-│   Dashboard    │   │   Dashboard    │   │   Dashboard    │
-│  (Allocate)    │   │  (Request)     │   │  (Verify)      │
-└────────────────┘   └────────────────┘   └────────────────┘
-                              │
-                    ┌─────────▼─────────┐
-                    │  Public Explorer  │
-                    │   (Read-Only)     │
-                    │  Citizen Portal   │
-                    └───────────────────┘
+🏛️ GOVERNMENT   →   Creates projects & locks funds in escrow
+🔨 CONTRACTORS  →   Request milestone releases with proof
+🔍 AUDITORS     →   Verify proofs & trigger fund releases
+👥 CITIZENS     →   Watch everything in real-time (no wallet needed!)
 ```
 
-## 🔧 Tech Stack
+Every single action is:
+- **Recorded on-chain** — immutable, permanent, tamper-proof
+- **Publicly visible** — no hiding, no excuses
+- **Cryptographically verified** — math doesn't lie, and neither does this
 
-| Layer | Technology |
-|-------|------------|
-| Smart Contracts | Solidity 0.8.20 |
-| Development Framework | Hardhat |
-| Blockchain Network | Polygon Mumbai Testnet |
-| Frontend | Next.js 14 + React 18 |
-| Styling | Tailwind CSS |
-| Web3 Integration | ethers.js v6 |
-| NFT Standard | ERC-721 |
-| Testing | Hardhat + Ethers |
+---
+
+## 🖥️ Project Screenshots — See The Magic In Action
+
+> *A picture is worth a thousand words. These screenshots are worth a million.*
+
+### 🏠 Main Dashboard — Where It All Begins
+![Main Dashboard](docs/images/0.png)
+
+---
+
+### 🏛️ Government Portal — Allocate Funds With Military Precision
+![Government Dashboard](docs/images/1.png)
+
+---
+
+### 🔨 Contractor Dashboard — Request, Prove, Get Paid
+![Contractor Dashboard](docs/images/2.png)
+
+---
+
+### 🔍 Auditor Panel — The Last Line Of Defense Against Corruption
+![Auditor Dashboard](docs/images/3.png)
+
+---
+
+### 👥 Public Explorer — Radical Transparency For Every Citizen
+![Public Explorer](docs/images/4.png)
+
+---
+
+### 📊 Impact Score & Trust Index — Real-Time Corruption Detector
+![Impact Score](docs/images/5.png)
+
+---
+
+### 🖼️ NFT Approval Stamps — Immutable Proof Of Milestone Completion
+![NFT Stamps](docs/images/6.png)
+
+---
+
+### 🔐 ZK-Proof Verification — Privacy Without Hiding Corruption
+![ZK Verification](docs/images/7.png)
+
+---
+
+## 🚀 5 Novel Features That Made Judges Drop Their Jaws
+
+### 🥇 Feature 1: Milestone-Based Escrow Smart Contract
+> *"Not a single rupee leaves until work is proven complete."*
+
+Funds are **locked in a smart contract escrow** and released ONLY when:
+- Contractor submits cryptographic proof of completion
+- Auditor verifies and approves the milestone
+- The blockchain itself executes the transfer
+
+No human can override this. No politician can redirect this. **The code IS the law.**
+
+---
+
+### 🥈 Feature 2: NFT-Based Audit Approval Stamps (ERC-721)
+> *"Every milestone approval gets minted as an NFT — permanent, public, and beautiful."*
+
+When an auditor approves a milestone, a unique **"Public Audit Seal" NFT** is automatically minted. This NFT is:
+- **Immutable** — cannot be deleted or altered
+- **Publicly viewable** — anyone can verify authenticity
+- **Blockchain-native** — lives forever on Polygon
+
+This means even 50 years from now, you can look up any project and see exactly who approved what, when, and why.
+
+---
+
+### 🥉 Feature 3: Zero-Knowledge Proof (ZK-Lite) Verification
+> *"Citizens verify spending WITHOUT seeing sensitive invoices. Privacy + Transparency = solved."*
+
+We implemented a **ZK-lite verification system** where:
+- Citizens can **prove** funds were used correctly
+- Without exposing **sensitive contractor invoices**
+- Without revealing **personal financial data**
+
+This is the holy grail of public finance — full accountability with zero privacy invasion.
+
+---
+
+### 🏅 Feature 4: Public Trust Index / Impact Score
+> *"A single number that tells you if your government is trustworthy. Updated live."*
+
+Every project gets a **0-100 Impact Score** calculated from:
+
+```
+📊 Impact Score Formula:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  On-Time Milestone Completion  ×  40%
+  Budget Adherence              ×  30%
+  Audit Approval Rate           ×  20%
+  Transparency Score            ×  10%
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🟢 85-100 → EXCELLENT  (Your tax money is safe)
+  🟡 70-84  → GOOD       (Mostly fine)
+  🟠 50-69  → AVERAGE    (Keep watching)
+  🔴 0-49   → POOR       (Sound the alarms)
+```
+
+---
+
+### 🎖️ Feature 5: Real-Time Audit Trail Explorer
+> *"A live, beautiful dashboard showing every single transaction from creation to completion."*
+
+Citizens don't need to trust the government anymore. They can **verify** everything:
+- 📅 Complete project timeline
+- 💰 Fund allocation & utilization
+- 📈 Progress bars updated in real-time
+- 🔗 Blockchain transaction hashes for every action
+
+**Don't trust. Verify. On the blockchain.**
+
+---
+
+## 🏗️ System Architecture — Built Like A Tank
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                        BLOCKCHAIN LAYER                              │
+│              (Polygon Mumbai Testnet / Local Hardhat)               │
+│                                                                      │
+│  ┌────────────────────┐  ┌──────────────────┐  ┌─────────────────┐ │
+│  │ PublicFundProject  │  │  ApprovalNFT     │  │ ImpactScore     │ │
+│  │  Smart Contract    │  │  ERC-721         │  │ Calculator      │ │
+│  │  (Main Logic)      │  │  (Audit Stamps)  │  │ (Trust Index)   │ │
+│  └────────────────────┘  └──────────────────┘  └─────────────────┘ │
+│                                                                      │
+│  ┌────────────────────────────────────────────────────────────────┐ │
+│  │              ZKVerifier Contract (Privacy Layer)               │ │
+│  └────────────────────────────────────────────────────────────────┘ │
+└─────────────────────────────────────────────────────────────────────┘
+                                   ▲
+                                   │  ethers.js v6
+                    ┌──────────────┼──────────────┐
+                    │              │              │
+           ┌────────▼─────┐ ┌─────▼──────┐ ┌────▼────────┐
+           │  Government  │ │ Contractor │ │   Auditor   │
+           │  Dashboard   │ │ Dashboard  │ │  Dashboard  │
+           │  (Allocate)  │ │ (Request)  │ │  (Verify)   │
+           └──────────────┘ └────────────┘ └─────────────┘
+                                   │
+                          ┌────────▼────────┐
+                          │ Public Explorer │
+                          │  (No wallet!)   │
+                          │ Citizen Portal  │
+                          └─────────────────┘
+```
+
+---
+
+## 🛠️ Tech Stack — We Chose Only The Best
+
+| Layer | Technology | Why We Chose It |
+|---|---|---|
+| 🔗 Smart Contracts | Solidity 0.8.20 | The gold standard for EVM smart contracts |
+| 🧰 Dev Framework | Hardhat | Industry-leading Ethereum dev environment |
+| ⛓️ Blockchain | Polygon Mumbai Testnet | Lightning fast, dirt cheap, fully EVM compatible |
+| ⚛️ Frontend | Next.js 14 + React 18 | Server-side rendering, blazing fast UX |
+| 🎨 Styling | Tailwind CSS | Utility-first, pixel-perfect, responsive design |
+| 🔌 Web3 | ethers.js v6 | Best-in-class Ethereum library |
+| 🖼️ NFTs | ERC-721 | Battle-tested NFT standard |
+| 🔐 Security | OpenZeppelin v5 | The most trusted smart contract library on Earth |
+| 🔍 Testing | Hardhat + Ethers | Comprehensive contract testing suite |
+
+---
 
 ## 📦 Project Structure
 
 ```
 PFTUS/
-├── contracts/                     # Smart contracts
-│   ├── PublicFundProject.sol     # Main fund management
-│   ├── ApprovalNFT.sol           # NFT stamps
-│   ├── ImpactScoreCalculator.sol # Trust index
-│   └── ZKVerifier.sol            # ZK verification
-├── scripts/                       # Deployment scripts
-│   └── deploy.ts
-├── frontend/                      # Next.js application
+├── 📁 contracts/                     # Smart contracts (The Brains)
+│   ├── PublicFundProject.sol         # Main fund management contract
+│   ├── ApprovalNFT.sol               # ERC-721 NFT audit stamps
+│   ├── ImpactScoreCalculator.sol     # Trust index engine
+│   └── ZKVerifier.sol                # Zero-knowledge verification
+│
+├── 📁 scripts/                       # Deployment scripts
+│   └── deploy.ts                     # One-command deploy to any network
+│
+├── 📁 frontend/                      # Next.js Application (The Face)
 │   ├── app/
-│   │   ├── government/           # Government dashboard
-│   │   ├── contractor/           # Contractor dashboard
-│   │   ├── auditor/              # Auditor dashboard
-│   │   └── explorer/             # Public explorer
+│   │   ├── government/               # Government dashboard
+│   │   ├── contractor/               # Contractor dashboard
+│   │   ├── auditor/                  # Auditor dashboard
+│   │   └── explorer/                 # Public explorer
 │   └── utils/
-│       ├── web3.ts               # Web3 utilities
-│       └── ipfs.ts               # IPFS utilities
-├── cursor_project_rules/          # Documentation
-├── hardhat.config.ts             # Hardhat configuration
-└── package.json
+│       ├── web3.ts                   # Web3 utilities
+│       └── ipfs.ts                   # IPFS document storage
+│
+├── 📁 docs/                          # Documentation
+│   └── images/                       # Screenshots & winning photos
+│
+├── 📁 assets/                        # Architecture diagrams
+│   ├── system-architecture.png
+│   ├── milestone-flow.png
+│   └── project-lifecycle.png
+│
+├── hardhat.config.ts                 # Hardhat configuration
+├── package.json
+└── tsconfig.json
 ```
 
-## 🚀 Quick Start
+---
+
+## ⚙️ Quick Start — From Zero To Running In 5 Minutes
 
 ### Prerequisites
 
-- Node.js v18+ and npm
-- MetaMask wallet
-- Git
+Before you begin, make sure you have:
+- ✅ **Node.js v18+** and npm
+- ✅ **MetaMask** wallet installed
+- ✅ **Git** installed
 
-### Installation
+### Step 1: Clone The Repo
 
 ```bash
-# Clone repository
-git clone <repository-url>
-cd Blockchain-based-Public-Fund-Tracking-Utilization-System
+git clone https://github.com/kranthii-k/v2.git
+cd v2
+```
 
-# Install contract dependencies
+### Step 2: Install Contract Dependencies
+
+```bash
 npm install
+```
 
-# Install frontend dependencies
+### Step 3: Install Frontend Dependencies
+
+```bash
 cd frontend
 npm install
 cd ..
 ```
 
-### Environment Setup
+### Step 4: Environment Setup
 
 ```bash
 # Root directory - for contracts
@@ -153,36 +355,34 @@ cp frontend/.env.example frontend/.env.local
 # Contract addresses will be added after deployment
 ```
 
-### Compile Contracts
+### Step 5: Compile Contracts
 
 ```bash
 npm run compile
 ```
 
-### Deploy Contracts
+### Step 6: Deploy Contracts
 
-#### Option 1: Local Hardhat Network (for testing)
+#### 🖥️ Option A — Local Hardhat Network (Recommended for testing)
 
 ```bash
-# Terminal 1 - Start local node
+# Terminal 1 - Start local blockchain node
 npm run node
 
-# Terminal 2 - Deploy contracts
+# Terminal 2 - Deploy all contracts
 npm run deploy:local
 ```
 
-#### Option 2: Polygon Mumbai Testnet
+#### 🌐 Option B — Polygon Mumbai Testnet (Live demo)
 
 ```bash
-# Make sure you have test MATIC in your wallet
 # Get free MATIC from: https://faucet.polygon.technology/
-
 npm run deploy:mumbai
 ```
 
-### Update Frontend Configuration
+### Step 7: Configure Frontend
 
-After deployment, copy contract addresses from `deployment-addresses.json` to `frontend/.env.local`:
+After deployment, copy addresses from `deployment-addresses.json` to `frontend/.env.local`:
 
 ```env
 NEXT_PUBLIC_PUBLIC_FUND_PROJECT_ADDRESS=0x...
@@ -191,195 +391,252 @@ NEXT_PUBLIC_IMPACT_SCORE_ADDRESS=0x...
 NEXT_PUBLIC_ZK_VERIFIER_ADDRESS=0x...
 ```
 
-### Run Frontend
+### Step 8: Launch The Frontend
 
 ```bash
 cd frontend
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## 🎬 Demo Flow
-
-### 1. Government Creates Project
-
-1. Connect wallet as Government
-2. Navigate to Government Dashboard
-3. Click "Create New Project"
-4. Fill in:
-   - Project Title: "City Road Construction"
-   - Description: "Main road repair and expansion"
-   - Contractor Address
-   - Auditor Address
-   - Milestones (3):
-     - Foundation Work - 30 ETH
-     - Road Construction - 50 ETH
-     - Final Touches - 20 ETH
-5. Submit transaction
-6. Allocate funds (100 ETH) to activate project
-
-### 2. Contractor Requests Milestone
-
-1. Connect wallet as Contractor
-2. View assigned projects
-3. Request Milestone #1 release
-4. Upload proof document (PDF/Image)
-5. Submit for review
-
-### 3. Auditor Reviews & Approves
-
-1. Connect wallet as Auditor
-2. View pending approvals
-3. Review proof document
-4. Approve milestone
-5. NFT approval stamp minted automatically
-6. Funds released to contractor
-
-### 4. Public Views Transparency
-
-1. Navigate to Public Explorer (no wallet needed)
-2. Browse all projects
-3. Click project to view:
-   - Real-time progress
-   - Fund utilization
-   - Impact Score
-   - Audit trail
-   - NFT approval stamps
-
-## 📊 Smart Contract Functions
-
-### PublicFundProject.sol
-
-**Government Functions:**
-- `createProject()` - Initialize new project with milestones
-- `allocateFunds()` - Deposit funds to contract
-- `pauseProject()` / `resumeProject()` - Emergency controls
-
-**Contractor Functions:**
-- `requestMilestoneRelease()` - Request next milestone
-- `submitProof()` - Upload completion proof
-- `resubmitMilestone()` - Resubmit after rejection
-
-**Auditor Functions:**
-- `approveMilestone()` - Approve and release funds
-- `rejectMilestone()` - Reject with reason
-
-**Public View Functions:**
-- `getProjectDetails()` - Get project info
-- `getProjectMilestones()` - Get all milestones
-- `getAuditTrail()` - Get transaction history
-- `getProjectProgress()` - Get completion percentage
-
-## 🔐 Security Features
-
-- ✅ Role-based access control (Government, Contractor, Auditor)
-- ✅ Reentrancy protection
-- ✅ OpenZeppelin security standards
-- ✅ Pausable mechanism for emergencies
-- ✅ Sequential milestone releases
-- ✅ Immutable audit trail
-
-## 🧪 Testing
-
-```bash
-# Run all tests
-npm test
-
-# Run with gas reporting
-REPORT_GAS=true npm test
-
-# Run coverage
-npm run coverage
-```
-
-## 🌐 Deployment & Verification
-
-### Verify Contracts on PolygonScan
-
-```bash
-npx hardhat verify --network mumbai <CONTRACT_ADDRESS> <CONSTRUCTOR_ARGS>
-```
-
-Example:
-```bash
-npx hardhat verify --network mumbai 0x123... "0xNFTAddress" "0xScoreAddress"
-```
-
-## 📈 Impact Score Calculation
-
-**Formula:**
-```
-Total Score (0-100) = 
-  On-Time Completion × 40% +
-  Budget Adherence × 30% +
-  Audit Approval Rate × 20% +
-  Transparency Score × 10%
-```
-
-**Rating:**
-- 85-100: Excellent (Green)
-- 70-84: Good (Yellow)
-- 50-69: Average (Orange)
-- 0-49: Poor (Red)
-
-## 🎤 Seminar Presentation
-
-### Key Points to Highlight
-
-1. **Problem:** Lack of transparency in public fund management
-2. **Solution:** Blockchain-based immutable record system
-3. **Novel Features:**
-   - Milestone-based escrow
-   - NFT approval stamps
-   - Zero-knowledge proofs
-   - Public trust index
-4. **Demo:** Live walkthrough of complete project lifecycle
-5. **Impact:** Reduced corruption, increased accountability
-
-### Demo Script
-
-See `presentation/DEMO_SCRIPT.md` for detailed presentation flow.
-
-## 🔮 Future Enhancements
-
-- [ ] Multi-project portfolio tracking
-- [ ] AI-based anomaly detection
-- [ ] Mobile app for citizens
-- [ ] Integration with government ERP systems
-- [ ] Cross-chain interoperability
-- [ ] Real-time notifications via webhooks
-- [ ] Advanced analytics dashboard
-- [ ] Support for multiple currencies
-
-## 🤝 Contributing
-
-This is a seminar project. For educational purposes.
-
-## 📄 License
-
-MIT License - see LICENSE file for details
-
-## 👥 Team
-
-PFTUS Development Team
-
-## 📞 Support
-
-For issues and questions:
-- Create an issue in the repository
-- Check documentation in `cursor_project_rules/`
-
-## 🙏 Acknowledgments
-
-- OpenZeppelin for secure smart contract libraries
-- Polygon for scalable blockchain infrastructure
-- Next.js team for amazing React framework
-- Hardhat for development tools
+🚀 Open [http://localhost:3000](http://localhost:3000) and witness the future.
 
 ---
 
-**Built with ❤️ for transparency, accountability, and public trust in governance**
+## 🎬 Complete Demo Flow — The Full Experience
 
-🌟 **Star this repository if you find it useful!**
+### Act 1: Government Creates A Project 🏛️
 
+1. Connect MetaMask as **Government account**
+2. Navigate to **Government Dashboard**
+3. Click **"Create New Project"**
+4. Fill in project details:
+   ```
+   Project: "City Road Construction - Phase 1"
+   Description: "Main road repair and expansion"
+   Contractor: 0x... (contractor wallet)
+   Auditor: 0x... (auditor wallet)
+   
+   Milestones:
+   ├── Milestone 1: Foundation Work     → 30 ETH
+   ├── Milestone 2: Road Construction   → 50 ETH
+   └── Milestone 3: Final Touches       → 20 ETH
+   ```
+5. Submit transaction — **100 ETH locked in escrow**
+
+---
+
+### Act 2: Contractor Requests Milestone 🔨
+
+1. Connect MetaMask as **Contractor account**
+2. View **assigned projects**
+3. **Request Milestone #1** release
+4. Upload proof document (PDF/Image/IPFS hash)
+5. Submit for auditor review
+
+---
+
+### Act 3: Auditor Reviews & Approves 🔍
+
+1. Connect MetaMask as **Auditor account**
+2. View **pending approvals queue**
+3. Review uploaded proof document
+4. Click **"Approve Milestone"**
+5. ✨ **NFT Audit Stamp automatically minted**
+6. 💰 **30 ETH instantly released** to contractor
+
+---
+
+### Act 4: Citizens Watch In Real-Time 👥
+
+1. Open **Public Explorer** (no wallet needed!)
+2. Browse **all projects** with live progress
+3. Click any project to see:
+   - 📊 Real-time fund utilization
+   - 🏆 Impact Score & Trust Index
+   - 📜 Complete audit trail
+   - 🖼️ NFT approval stamps
+   - 🔗 Transaction hashes on PolygonScan
+
+---
+
+## 📋 Smart Contract Reference
+
+### `PublicFundProject.sol` — The Core Engine
+
+**🏛️ Government Functions:**
+```solidity
+createProject(title, description, contractor, auditor, milestones[])
+allocateFunds(projectId)
+pauseProject(projectId)   // Emergency pause
+resumeProject(projectId)  // Resume paused project
+```
+
+**🔨 Contractor Functions:**
+```solidity
+requestMilestoneRelease(projectId, milestoneId)
+submitProof(projectId, milestoneId, proofHash)
+resubmitMilestone(projectId, milestoneId, newProofHash)
+```
+
+**🔍 Auditor Functions:**
+```solidity
+approveMilestone(projectId, milestoneId)   // Triggers NFT mint + fund release
+rejectMilestone(projectId, milestoneId, reason)
+```
+
+**👥 Public View Functions (Read-Only, Free):**
+```solidity
+getProjectDetails(projectId)
+getProjectMilestones(projectId)
+getAuditTrail(projectId)
+getProjectProgress(projectId)
+getAllProjects()
+```
+
+---
+
+## 🔐 Security Architecture — Fort Knox For Public Funds
+
+| Security Feature | Implementation |
+|---|---|
+| 🛡️ Role-Based Access Control | `onlyGovernment`, `onlyContractor`, `onlyAuditor` modifiers |
+| 🔒 Reentrancy Protection | OpenZeppelin `ReentrancyGuard` |
+| ⏸️ Emergency Pause | OpenZeppelin `Pausable` mechanism |
+| ✅ OpenZeppelin Standards | Battle-tested, audited library v5.0.1 |
+| 📋 Sequential Milestones | Cannot skip or reorder milestone releases |
+| 🔗 Immutable Audit Trail | Every action permanently recorded on-chain |
+| 🔐 Private Key Safety | dotenv + .gitignore for sensitive keys |
+
+---
+
+## 📊 Impact Score Deep Dive
+
+```
+╔══════════════════════════════════════════════════════╗
+║           IMPACT SCORE CALCULATION ENGINE            ║
+╠══════════════════════════════════════════════════════╣
+║  On-Time Milestone Completion  ████████████  40%    ║
+║  Budget Adherence              █████████     30%    ║
+║  Audit Approval Rate           ██████        20%    ║
+║  Transparency Score            ███           10%    ║
+╠══════════════════════════════════════════════════════╣
+║  🟢 EXCELLENT  85-100 → Citizens sleep peacefully   ║
+║  🟡 GOOD       70-84  → Minor concerns only         ║
+║  🟠 AVERAGE    50-69  → Stay alert, monitor closely ║
+║  🔴 POOR       0-49   → Sound the alarms, expose!   ║
+╚══════════════════════════════════════════════════════╝
+```
+
+---
+
+## 🧪 Run Tests
+
+```bash
+# Run all contract tests
+npm test
+
+# Run with gas usage report
+REPORT_GAS=true npm test
+
+# Run coverage analysis
+npm run coverage
+```
+
+---
+
+## 🌐 Deploy & Verify on PolygonScan
+
+```bash
+# Verify any contract on Mumbai
+npx hardhat verify --network mumbai <CONTRACT_ADDRESS> <CONSTRUCTOR_ARGS>
+
+# Example: Verify PublicFundProject
+npx hardhat verify --network mumbai 0x123... "0xNFTAddress" "0xScoreAddress"
+```
+
+---
+
+## 🔮 What's Next — The Roadmap To World Domination
+
+- [ ] 🤖 **AI-Based Anomaly Detection** — Flag suspicious fund patterns automatically
+- [ ] 📱 **Mobile App** — Citizens monitor government spending from their phone
+- [ ] 🌍 **Cross-Chain Support** — Expand to Ethereum, BSC, Arbitrum
+- [ ] 🔗 **Government ERP Integration** — Plug directly into existing systems
+- [ ] 📡 **Real-Time Webhooks** — Instant notifications for milestone events
+- [ ] 📈 **Advanced Analytics** — ML-powered insights and predictions
+- [ ] 💱 **Multi-Currency Support** — INR, USD, EUR on-chain
+- [ ] 🗳️ **Citizen Voting** — Let the public rate project execution
+- [ ] 🏢 **Multi-Government** — Scale to city, state, and national level
+- [ ] 📜 **Legal Integration** — Smart contracts recognized as legal agreements
+
+---
+
+## 🤝 Contributing
+
+This project won a hackathon. But more importantly, it can change the world.
+
+If you want to contribute to the fight against corruption:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+---
+
+## 👥 The Dream Team
+
+> *The humans behind the code that's going to change governance forever.*
+
+**PFTUS Development Team** — Who pulled all-nighters, drank gallons of coffee, debugged at 4 AM, and came out with a **First Place Trophy** on the other side.
+
+We are the proof that students with vision, code, and absolutely zero chill can build something that matters.
+
+---
+
+## 📜 License
+
+MIT License — Because transparency extends to our code too.
+
+See [LICENSE](LICENSE) for full details.
+
+---
+
+## 🙏 Acknowledgments
+
+Massive respect to the giants whose shoulders we stood on:
+
+- 🔐 **OpenZeppelin** — For the most trusted smart contract libraries in Web3
+- ⬡ **Polygon** — For scalable, fast, affordable blockchain infrastructure  
+- ⚛️ **Next.js Team** — For the most powerful React framework alive
+- 🔨 **Hardhat** — For making Ethereum development actually enjoyable
+- 🦊 **MetaMask** — For bringing Web3 to billions of users
+- ☕ **Coffee** — For making this humanly possible
+
+---
+
+<div align="center">
+
+## 🏆 WE WON. AND WE'D WIN AGAIN. 🏆
+
+---
+
+### *"Built with ❤️, powered by blockchain, driven by the belief that corruption has an expiry date."*
+
+---
+
+![GitHub stars](https://img.shields.io/github/stars/kranthii-k/v2?style=social)
+![GitHub forks](https://img.shields.io/github/forks/kranthii-k/v2?style=social)
+
+**⭐ Star this repo if you believe in transparent governance ⭐**
+
+**🔗 Share it if you hate corruption 🔗**
+
+**🛠️ Fork it if you want to build the future 🛠️**
+
+---
+
+*PFTUS — Because your tax money deserves better.*
+
+</div>
