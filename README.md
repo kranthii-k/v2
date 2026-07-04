@@ -3,7 +3,7 @@
 
 # 🏆 PFTUS — Blockchain-based Public Fund Tracking & Utilization System
 
-### 🥈 1st Runner-Up — Hackathon 2026
+### 🥈 1st Runner-Up — Epoch'26 | Vemana Institute of Technology, Bengaluru
 
 <br/>
 
@@ -25,9 +25,11 @@
 
 ---
 
-## 🥈 Hackathon Winners — 1st Runner-Up
+## 🥈 Epoch'26 Winners — 1st Runner-Up
 
-> 48 hours. Zero sleep. One idea that could change how governments handle public money.
+> 🏫 **Epoch'26** — 24-Hour Hackathon organised by **Vemana Institute of Technology, Bengaluru** (2026)
+>
+> 24 hours. Zero sleep. One idea that could change how governments handle public money.
 > We came, we built, and we walked away as **1st Runner-Up** — and honestly, the project speaks for itself.
 
 <div align="center">
@@ -582,7 +584,9 @@ Massive respect to the giants whose shoulders we stood on:
 
 <div align="center">
 
-## 🥈 Proud 1st Runner-Ups. Built with heart, shipped with pride.
+## 🥈 Proud 1st Runner-Ups at Epoch'26 — Built with heart, shipped with pride.
+
+*Epoch'26 | Vemana Institute of Technology, Bengaluru | 24-Hour Hackathon | 2026*
 
 ---
 
