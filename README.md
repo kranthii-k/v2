@@ -3,7 +3,7 @@
 
 # 🏆 PFTUS — Blockchain-based Public Fund Tracking & Utilization System
 
-### 🥇 THE HACKATHON PROJECT THAT BROKE THE INTERNET 🥇
+### 🥈 1st Runner-Up — Hackathon 2024
 
 <br/>
 
@@ -21,32 +21,20 @@
 
 > *"This isn't a hackathon submission — it's a movement."*
 
-> *"Judges were shook. The crowd went wild. The blockchain was on fire."* 🔥
-
 </div>
 
 ---
 
-## 🏆 WE WON. AND HERE'S THE PROOF. 🏆
+## 🥈 Hackathon Winners — 1st Runner-Up
 
-> Yes, you read that right. **WINNERS.** Not participants. Not runner-ups. **CHAMPIONS.**
-> This is what peak performance looks like. This is what happens when you sleep 3 hours, drink 12 coffees, and pour your entire soul into 48 hours of pure engineering excellence.
+> 48 hours. Zero sleep. One idea that could change how governments handle public money.
+> We came, we built, and we walked away as **1st Runner-Up** — and honestly, the project speaks for itself.
 
 <div align="center">
 
-| 🥇 Moment of Glory | 🎉 The Victory | 🏅 Champions | 🙌 We Actually Did It |
+| | | | |
 |---|---|---|---|
-| ![Winning Moment 1](docs/images/win1.jpeg) | ![Winning Moment 2](docs/images/win2.jpeg) | ![Winning Moment 3](docs/images/win3.jpeg) | ![Winning Moment 4](docs/images/win4.jpeg) |
-
-</div>
-
-<div align="center">
-
-### 🎊 WE CAME. WE SAW. WE CONQUERED. 🎊
-
-*The judges didn't just give us first place — they gave us a standing ovation.*
-*The competition was fierce. But we were fiercer.*
-*They asked us "what makes your project different?" — we said "everything."*
+| ![](docs/images/win1.jpeg) | ![](docs/images/win2.jpeg) | ![](docs/images/win3.jpeg) | ![](docs/images/win4.jpeg) |
 
 </div>
 
@@ -107,47 +95,23 @@ Every single action is:
 
 ---
 
-## 🖥️ Project Screenshots — See The Magic In Action
+## 🖥️ Screenshots
 
-> *A picture is worth a thousand words. These screenshots are worth a million.*
+![](docs/images/0.png)
 
-### 🏠 Main Dashboard — Where It All Begins
-![Main Dashboard](docs/images/0.png)
+![](docs/images/1.png)
 
----
+![](docs/images/2.png)
 
-### 🏛️ Government Portal — Allocate Funds With Military Precision
-![Government Dashboard](docs/images/1.png)
+![](docs/images/3.png)
 
----
+![](docs/images/4.png)
 
-### 🔨 Contractor Dashboard — Request, Prove, Get Paid
-![Contractor Dashboard](docs/images/2.png)
+![](docs/images/5.png)
 
----
+![](docs/images/6.png)
 
-### 🔍 Auditor Panel — The Last Line Of Defense Against Corruption
-![Auditor Dashboard](docs/images/3.png)
-
----
-
-### 👥 Public Explorer — Radical Transparency For Every Citizen
-![Public Explorer](docs/images/4.png)
-
----
-
-### 📊 Impact Score & Trust Index — Real-Time Corruption Detector
-![Impact Score](docs/images/5.png)
-
----
-
-### 🖼️ NFT Approval Stamps — Immutable Proof Of Milestone Completion
-![NFT Stamps](docs/images/6.png)
-
----
-
-### 🔐 ZK-Proof Verification — Privacy Without Hiding Corruption
-![ZK Verification](docs/images/7.png)
+![](docs/images/7.png)
 
 ---
 
@@ -618,7 +582,7 @@ Massive respect to the giants whose shoulders we stood on:
 
 <div align="center">
 
-## 🏆 WE WON. AND WE'D WIN AGAIN. 🏆
+## 🥈 Proud 1st Runner-Ups. Built with heart, shipped with pride.
 
 ---
 
