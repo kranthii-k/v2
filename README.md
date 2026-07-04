@@ -3,7 +3,7 @@
 
 # 🏆 PFTUS — Blockchain-based Public Fund Tracking & Utilization System
 
-### 🥈 1st Runner-Up — Hackathon 2024
+### 🥈 1st Runner-Up — Hackathon 2026
 
 <br/>
 
